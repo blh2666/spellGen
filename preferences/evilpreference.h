@@ -25,7 +25,6 @@ public:
         prefEvil = role;
     }
 };
-};
 
 
 #endif //SPELLGEN_EVILPREFERENCE_H

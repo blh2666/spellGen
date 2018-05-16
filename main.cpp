@@ -1,13 +1,13 @@
 #include <iostream>
 #include "spell.h"
+#include "spellselector.h"
 
 using namespace std;
 
 int main() {
 
-    spell thing;
-    thing.set_attributes("fireball",thing.Fire,thing.aoeDamage,thing.evocation,10,3);
+    SpellSelector selector;
 
-    std::cout << thing.getName();
+    selector.buildSpells();
 
 }
